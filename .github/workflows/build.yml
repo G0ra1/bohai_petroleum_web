@@ -19,8 +19,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Clean npm cache
+        run: npm cache clean --force
       - name: Install Dependencies
-        run: npm install --package-lock-only
+        run: npm install --package-lock-only --save
       - name: Build
         run: |
           npm run build
