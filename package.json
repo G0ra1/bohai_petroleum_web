@@ -2,7 +2,7 @@
   "name": "bohai_petroleum",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "lc <503163232@qq.com>",
+  "author": "lc <b0yjdz@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
