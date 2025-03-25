@@ -23,4 +23,6 @@ jobs:
         run: |
           npm install
           npm run build
+          ls -t /home/runner/.npm/_logs/ | head -n 1 | xargs -I {} cat /home/runner/.npm/_logs/{}
+
 
