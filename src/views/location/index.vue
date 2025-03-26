@@ -85,7 +85,7 @@
 
 <script>
 import {getLocationListPage,addOrUpdateLocation,deleteLocation} from '@/api/location'
-import Dialog from '@/components/dialog/index';
+import Dialog from '../../components/dialog/index';
 import { Message } from 'element-ui'
 import {dateFormat} from '@/utils/DateUtil'
 export default {

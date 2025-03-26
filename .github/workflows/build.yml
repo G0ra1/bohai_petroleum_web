@@ -19,17 +19,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Clean npm cache
+      - name: Build and install and remover
         run: |
           npm cache clean --force
           rm -rf node_modules
-      - name: Install Dependencies
-        run: npm install --package-lock-only --save
-      - name: Install chalk
-        run: npm install chalk
-      - name: Build
-        run: npm run build
-      - name: Cat Log
-        run: ls -t /home/runner/.npm/_logs/ | head -n 1 | xargs -I {} cat /home/runner/.npm/_logs/{}
-
+          npm install
+          npm run build
 

@@ -59,10 +59,10 @@
 </template>
 
 <script>
-import treeTable from '@/components/TreeTable'
-import {getDictList, add, updateById, deleteById} from '@/api/dict'
+import treeTable from '../../components/TreeTable'
+import {getDictList, add, updateById, deleteById} from '../../api/dict'
 import {listToTree, copyProperties} from '@/utils'
-import Dialog from '@/components/dialog/index';
+import Dialog from '../../components/dialog/index';
 import selectTree from '@riophae/vue-treeselect'
 import '@riophae/vue-treeselect/dist/vue-treeselect.css'
 

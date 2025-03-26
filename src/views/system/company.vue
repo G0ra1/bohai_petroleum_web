@@ -91,7 +91,7 @@
 </template>
 
 <script>
-import Dialog from '@/components/dialog/index';
+import Dialog from '../../components/dialog/index';
 import {add,search,update,deleteById} from '@/api/company'
 export default {
   name: "company",

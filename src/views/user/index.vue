@@ -240,9 +240,9 @@
 </template>
 
 <script>
-import {getDepartments} from '@/api/department'
-import {listToTree, copyProperties} from '@/utils'
-import {validatePhone} from '@/utils/validate'
+import {getDepartments} from '../../api/department'
+import {listToTree, copyProperties} from '../../utils'
+import {validatePhone} from '../../utils/validate'
 import selectTree from '@riophae/vue-treeselect'
 import '@riophae/vue-treeselect/dist/vue-treeselect.css'
 import {

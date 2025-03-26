@@ -256,7 +256,7 @@
 <script>
 import {getStatus,getDeviceList,addDevice,updateDevice,deleteDevice,openDoor,updatePwd,callbackURL,setAdv,cleanAdv,emergency,cameraSet,clearData} from '@/api/device'
 import {getLocationList} from '@/api/location'
-import Dialog from '@/components/dialog/index';
+import Dialog from '../../components/Dialog/index.vue';
 import { Message } from 'element-ui'
 import {validateIp} from '@/utils/validate'
 import {dateFormat} from '@/utils/DateUtil'
