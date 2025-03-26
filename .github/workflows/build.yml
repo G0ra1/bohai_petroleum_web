@@ -22,7 +22,7 @@ jobs:
       - name: Clean npm cache
         run: |
           npm cache clean --force
-          rm -rf node_modules package-lock.json
+          rm -rf node_modules
       - name: Install Dependencies
         run: npm install --package-lock-only --save
       - name: Install chalk
