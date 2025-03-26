@@ -258,12 +258,12 @@ import {
   addImage,
   imageMerge,
   getIp
-} from '@/api/user'
-import Dialog from '@/components/dialog/index';
+} from '../../api/user'
+import Dialog from '../../components/Dialog/index';
 import {Message} from 'element-ui'
-import {formatDate} from '@/utils/DateUtil'
+import {formatDate} from '../../utils/DateUtil'
 import store from '../../store'
-import {hex_md5} from "@/utils/md5";
+import {hex_md5} from "../../utils/md5";
 export default {
   name: "UserList",
   components: {

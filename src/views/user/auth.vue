@@ -208,7 +208,7 @@ import {
   getUserInfoListByDepartments,
   batchdeleteAuthUser
 } from '../../api/user'
-import Dialog from '../../components/dialog/index';
+import Dialog from '../../components/Dialog/index';
 import {Message} from 'element-ui'
 
 export default {
