@@ -25,6 +25,8 @@ jobs:
           rm -rf node_modules package-lock.json
       - name: Install Dependencies
         run: npm install --package-lock-only --save
+      - name: Install chalk
+        run: npm install chalk
       - name: Build
         run: npm run build
       - name: Cat Log
