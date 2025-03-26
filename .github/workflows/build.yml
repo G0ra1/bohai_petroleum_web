@@ -26,8 +26,8 @@ jobs:
       - name: Install Dependencies
         run: npm install --package-lock-only --save
       - name: Build
-        run: |
-          npm run build
-          ls -t /home/runner/.npm/_logs/ | head -n 1 | xargs -I {} cat /home/runner/.npm/_logs/{}
+        run: npm run build
+      - name: Cat Log
+        run: ls -t /home/runner/.npm/_logs/ | head -n 1 | xargs -I {} cat /home/runner/.npm/_logs/{}
 
 
