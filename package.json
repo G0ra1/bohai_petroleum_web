@@ -94,5 +94,8 @@
   "directories": {
     "test": "test"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "resolutions": {
+    "chokidar/fsevents": "false"
+  }
 }
